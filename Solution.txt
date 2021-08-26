@@ -1,0 +1,88 @@
+Note: There were some results which had a tie for TEMP and PRCP values, so they were further sorted based on STN number and then the date, and only first result was selected amongst them. 
+
+Question1: 
+Hottest day for each year (got multiple days with same temp values, so truncated result to display one day for each year)
++------+--------+-----+
+|   STN|YEARMODA| TEMP|
++------+--------+-----+
+|406760|20100613|110.0|
+|406900|20110607|109.9|
+|405510|20120720|110.0|
+|404010|20130717|109.8|
+|403770|20140711|110.0|
+|403770|20150729|110.0|
+|405810|20160630|110.0|
+|403770|20170706|110.0|
+|405860|20180606|110.0|
+|946760|20190116|107.7|
++------+--------+-----+
+
+Coldest day for each year (got multiple days with same temp values, so truncated result to display one day for each year)
++------+--------+------+
+|   STN|YEARMODA|  TEMP|
++------+--------+------+
+|896060|20100603|-110.7|
+|896060|20110519|-106.8|
+|896060|20120611|-113.5|
+|895770|20130731|-110.7|
+|896060|20140820|-110.5|
+|896060|20150827|-110.4|
+|896060|20160711|-111.9|
+|896250|20170620|-114.7|
+|896060|20180827|-113.5|
+|896060|20190405| -99.0|
++------+--------+------+
+
+
+Question2: 
+Hottest day of all years (got multiple results for TEMP = 110, so sorted by station code and displayed top one)
++------+--------+-----+
+|   STN|YEARMODA| TEMP|
++------+--------+-----+
+|403770|20140711|110.0|
++------+--------+-----+
+
+Coldest day of all years
++------+--------+------+
+|   STN|YEARMODA|  TEMP|
++------+--------+------+
+|896250|20170620|-114.7|
++------+--------+------+
+
+
+Question3:
+Maximum precipitation value for 2015
++------+--------+-----+
+|   STN|YEARMODA| PRCP|
++------+--------+-----+
+|915410|20150311|19.49|
++------+--------+-----+
+
+
+Minimum precipitation value for 2015
++------+--------+----+
+|   STN|YEARMODA|PRCP|
++------+--------+----+
+|701486|20150517| 0.0|
++------+--------+----+
+
+
+Question4:
+Percentage missing values of STP for 2019
+27.961149261
+
+Percentage missing values of STN for 2019
+1.87003906078
+
+
+Question5:
+# Station code with max wind gust for 2019
++------+--------+-----+
+|   STN|YEARMODA| GUST|
++------+--------+-----+
+|085510|20190101|116.6|
++------+--------+-----+
+
+
+
+
